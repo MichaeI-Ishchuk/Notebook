@@ -1,0 +1,16 @@
+springdoc:
+  swagger-ui:
+    disable-swagger-default-url: true
+swagger:
+  title: Notebook
+  app:
+    version: 0.1
+  username: ADMIN
+  email: notebook.ukraine@gmail.com
+user:
+  min-age: 18
+spring:
+  mvc:
+    format:
+      date: yyyy-MM-dd
+      date-time: yyyy-MM-dd HH:mm:ss
